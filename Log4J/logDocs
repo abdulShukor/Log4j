@@ -1,0 +1,28 @@
+Download Log4j from below official link
+http://logging.apache.org/log4j/2.x/
+Use log. Error() to log when elements are not displayed in the page or if any validations fail
+
+Use Log. Debug()
+
+When each Selenium action is performed like click, SendKeys, getText()
+
+Use log.info()
+
+When operation is successfully completed ex: After loading page, or after any successful validations
+
+It’s just counterpart to log. Error()
+
+You can learn more about Log4j from below link
+http://tutorialspointexamples.com/log4j-tutorial-beginners-eclipse/
+
+note
+
+Log4j is logging framework
+Using api 
+Download the jars and import two jars to eclipse log4j-api and log4j-core 
+Make configuration xml file, trace will print entirely 
+Error will print just error create resource package -> create xml file, the configuration file there 
+Connect the Then build path -source folder ->add->and the resource file to the path you an assign specific package in 
+Need log manager 
+save the file for the report with .log extension 
+
